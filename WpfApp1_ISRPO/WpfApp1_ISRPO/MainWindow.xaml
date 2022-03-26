@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1_ISRPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_ISRPO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="251*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tb" HorizontalAlignment="Left" Margin="60,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="inserted" Content="Внесенная сумма: " HorizontalAlignment="Left" Margin="227,82,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="Сдача: " HorizontalAlignment="Left" Margin="227,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="Цена напитка: " HorizontalAlignment="Left" Margin="227,144,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <RadioButton x:Name="rbAmericano" GroupName="HotDrinks" Content="Американо" HorizontalAlignment="Left" Margin="60,221,0,0" VerticalAlignment="Top" IsChecked="True" Checked="rbAmericano_Checked"/>
+        <RadioButton x:Name="rbCappucino" GroupName="HotDrinks" Content="Капучино" HorizontalAlignment="Left" Margin="60,254,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbEspresso" GroupName="HotDrinks" Content="Эспрессо" HorizontalAlignment="Left" Margin="60,284,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbCacao" GroupName="HotDrinks" Content="Какао" HorizontalAlignment="Left" Margin="60,315,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Сахар" HorizontalAlignment="Left" Margin="181,221,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Молоко" HorizontalAlignment="Left" Margin="181,254,0,0" VerticalAlignment="Top"/>
+        <Button Content="Внести деньги" HorizontalAlignment="Left" Margin="60,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.126,0.987" Width="120" Click="Button_Click"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="60,394,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.126,0.987" Width="192" IsEnabled="False"/>
+        <Image x:Name="imgDrink" Grid.Column="1" Margin="118,144,58,64" Stretch="Fill" Source="{Binding Path=displayedImage}"/>
+
+
+        <Label x:Name="inserted_value" Content="0" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.exe
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.deps.json
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.runtimeconfig.json
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.runtimeconfig.dev.json
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.dll
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\bin\Debug\netcoreapp3.1\lab0_ABCD.pdb
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.csprojAssemblyReference.cache
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.AssemblyInfoInputs.cache
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.AssemblyInfo.cs
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.csproj.CoreCompileInputs.cache
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.dll
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.pdb
+C:\Users\shoshuu\source\repos\lab0_ABCD\lab0_ABCD\obj\Debug\netcoreapp3.1\lab0_ABCD.genruntimeconfig.cache
